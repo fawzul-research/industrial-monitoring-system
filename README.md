@@ -43,8 +43,6 @@ industrial-monitoring-system/
 ├── mobilenet.onnx          # Image classifier model
 ├── Plot_only.py            # pie chart in Tkinter
 ├── full_with_cam_inside.py #complete GUI app with model loading, file/camera handling, prediction
-├── output.mp4              # Demo video of system in action
-├── detected_objects.jpg    # Sample detection result
 └── images_for_test/        # Sample test images (anonymized)
 ```
 ---
