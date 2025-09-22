@@ -3,7 +3,7 @@
 
 ### Project Overview
 
-This project is an **AI-powered Industrial Monitoring System** developed during my internship at Universiti Teknikal Malaysia Melaka. It focuses on improving quality control and safety in factories by using computer vision.
+This project is an **AI-powered Industrial Monitoring System** that I developed during my internship at Universiti Teknikal Malaysia Melaka. It focuses on improving quality control and safety in factories by using computer vision.
 
 The system has two main functions:
 
