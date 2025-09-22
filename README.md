@@ -1,27 +1,56 @@
-# industrial-monitoring-system
-Industrial Monitoring System: Metal Printing &amp; Alternator Detection
-
-# Industrial Monitoring System: Metal Printing & Alternator Detection
-
-A dual-purpose AI application developed during my internship at the Centre of Excellence (CoE), Universiti Teknikal Malaysia Melaka.  
-This system integrates:
-- **Real-time metal printing quality monitoring** using image classification (MobileNetV3 + PyTorch)
-- **Alternator object detection** using YOLOv8
-
-Built with Python, ONNX, Tkinter, and deployed as a standalone GUI application.
-
-> Note: The training dataset used in this project was collected by my supervisor and team under institutional guidelines. For privacy and research integrity, it is **not publicly shared**. However, the code and model structure are fully available.
- 
+# Industrial Monitoring System: 3D Metal Printing & Alternator Detection
 ---
+
+### Project Overview
+
+This project is an **AI-powered Industrial Monitoring System** developed during my internship at Universiti Teknikal Malaysia Melaka. It focuses on improving quality control and safety in factories by using computer vision.
+
+The system has two main functions:
+
+**(i) Metal Printing Quality Monitoring** – Uses a deep learning model (MobileNetV3 with PyTorch) to check printed metal parts. It works in two ways:
+
+* **Live (Real-Time) Monitoring** – Inspects parts during production and instantly flags defects or irregularities.
+
+* **Post-Check Mode** – Users can upload images or videos after production to analyze quality.
+
+Together, these options help reduce waste, maintain standards, and give flexibility to factory operators.
+
+**(ii) Alternator Detection** – Applies object detection (YOLOv8) to automatically identify alternators from live camera feeds. This can be used on assembly lines for faster, more reliable inspections.
+
+<br>
+
+## Why this is useful:
+
+* Saves time by automating inspections that were previously manual.
+
+* Reduces errors and increases production accuracy.
+
+* Provides a simple interface so operators can use it without deep technical knowledge.
+
+In short, this system shows how AI can be applied in real factories to make production smarter, faster, and more reliable.
+
+<br>
 
 ## Features
-- Detects defects in metal prints in real time
-- Identifies industrial alternators from live camera feeds
-- Integrates both models into a single GUI app using Tkinter
-- Optimized for production use with ONNX model conversion
-- Deployed as standalone executable via PyInstaller
+* **Real-Time Camera Monitoring**<br>
+Capture and process live video streams from cameras to check product quality instantly.
 
----
+* **Automatic Defect Detection**<br>
+Detects issues in printed metal parts, reducing human error and improving accuracy.
+
+* **Alternator Identification**<br>
+Uses AI to recognize alternators on the production line, helping with faster inspection.
+
+* **Image/Video Testing Mode**<br>
+You can also upload saved images/videos (instead of using a live camera) to run quality checks.
+
+* **User-Friendly Interface**<br>
+Simple design that allows operators to run the system without deep technical skills.
+
+* **Customizable Models**<br>
+Built with ONNX and YOLOv8 so models can be retrained or replaced for other factory needs.
+
+<br>
 
 ## Technologies Used
 - Python, PyTorch, ONNX, OpenCV
@@ -29,7 +58,9 @@ Built with Python, ONNX, Tkinter, and deployed as a standalone GUI application.
 - Tkinter (GUI), Flask (optional backend)
 - Google Colab (training), PyInstaller (deployment)
 
----
+> Note: The training dataset used in this project was collected by my supervisor and team under institutional guidelines. For privacy and research integrity, it is **not publicly shared**. However, the code and model structure are fully available.
+ 
+<br>
 
 ## Project Structure
 ```
@@ -45,7 +76,7 @@ industrial-monitoring-system/
 ├── full_with_cam_inside.py #complete GUI app with model loading, file/camera handling, prediction
 └── images_for_test/        # Sample test images (anonymized)
 ```
----
+<br>
 
 ## How to Run
 
@@ -92,7 +123,7 @@ python main_v3.py
 ```bash
 deactivate
 ```
----
+<br>
 
 ### 🪟 Windows
 **1️⃣ Install Git for Windows**<br>
