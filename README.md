@@ -35,12 +35,14 @@ Built with Python, ONNX, Tkinter, and deployed as a standalone GUI application.
 ```
 industrial-monitoring-system/
 ├── main_v3.py              # Main GUI application
-├── camera_inside.py        # Camera feed handler
+├── camera_inside.py        # simple OpenCV + Tkinter camera feed
 ├── test_object_detection.py # Test script
 ├── model.py                # Model loading logic
 ├── requirements.txt        # Dependencies
 ├── best.onnx               # YOLOv8 model (ONNX format)
 ├── mobilenet.onnx          # Image classifier model
+├── Plot_only.py            # pie chart in Tkinter
+├── full_with_cam_inside.py #complete GUI app with model loading, file/camera handling, prediction
 ├── output.mp4              # Demo video of system in action
 ├── detected_objects.jpg    # Sample detection result
 └── images_for_test/        # Sample test images (anonymized)
