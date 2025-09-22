@@ -14,7 +14,7 @@ Built with Python, ONNX, Tkinter, and deployed as a standalone GUI application.
 
 ---
 
-## 🚀 Features
+## Features
 - Detects defects in metal prints in real time
 - Identifies industrial alternators from live camera feeds
 - Integrates both models into a single GUI app using Tkinter
@@ -23,7 +23,7 @@ Built with Python, ONNX, Tkinter, and deployed as a standalone GUI application.
 
 ---
 
-## 🔧 Technologies Used
+## Technologies Used
 - Python, PyTorch, ONNX, OpenCV
 - YOLOv8 (Ultralytics), MobileNetV3
 - Tkinter (GUI), Flask (optional backend)
@@ -31,4 +31,15 @@ Built with Python, ONNX, Tkinter, and deployed as a standalone GUI application.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
+industrial-monitoring-system/
+├── main_v3.py              # Main GUI application
+├── camera_inside.py        # Camera feed handler
+├── test_object_detection.py # Test script
+├── model.py                # Model loading logic
+├── requirements.txt        # Dependencies
+├── best.onnx               # YOLOv8 model (ONNX format)
+├── mobilenet.onnx          # Image classifier model
+├── output.mp4              # Demo video of system in action
+├── detected_objects.jpg    # Sample detection result
+└── images_for_test/        # Sample test images (anonymized)
